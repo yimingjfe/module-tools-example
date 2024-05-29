@@ -1,9 +1,12 @@
 {
+  "extends": "@total-typescript/tsconfig/bundler/dom",
   "compilerOptions": {
     "allowJs": true,
+    "outDir": ".",
     "baseUrl": ".",
     "declaration": true,
     "emitDeclarationOnly": true,
+    "noEmit": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
